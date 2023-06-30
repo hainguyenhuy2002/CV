@@ -4,7 +4,7 @@ Here are the checkpoints of EDSR: https://drive.google.com/drive/folders/1970eEZ
 
 Results:
 
-|   Row   |   PSNR   |   SSIM   | Number of epochs |
+|   Scale   |   PSNR   |   SSIM   | Number of epochs |
 |:-------:|:-------:|:-------:|:---------------:|
 |   x2    | 34.785  |  0.935  |       25        |
 |   x3    | 30.984  |  0.863  |       25        |
