@@ -1,5 +1,6 @@
 from super_image import ImageLoader
 from PIL import Image
+import torch
 from torchvision.transforms import ToTensor, ToPILImage
 import requests
 
@@ -7,7 +8,11 @@ def detect_from_url(image_url, model):
     image = Image.open(requests.get(image_url, stream=True).raw)
 
     inputs = ImageLoader.load_image(image)
-    preds = model(inputs)
+
+    model.eval()
+
+    with torch.no_grad:
+        preds = model(inputs)
 
     ImageLoader.save_image(preds, './scaled_2x.png')
     ImageLoader.save_compare(inputs, preds, './scaled_2x_compare.png')
@@ -20,7 +25,10 @@ def detect_from_path(image_path, model):
     inputs = ToTensor()(image).unsqueeze(0)
 
     # Use the given model to make predictions
-    preds = model(inputs)
+    model.eval()
+
+    with torch.no_grad:
+        preds = model(inputs)
 
     # Convert the predictions into an image
     output_image = ToPILImage()(preds.squeeze(0))
