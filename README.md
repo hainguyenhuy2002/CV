@@ -1,7 +1,11 @@
 # CV
 
-SRGAN Training
+Here are the checkpoints of EDSR: https://drive.google.com/drive/folders/1970eEZPjt4XuQF_KVd1CFE33EBVrA85b?usp=sharing
 
-Make google drive shortcut to explore code repo: https://drive.google.com/drive/folders/1xEjyVuSJUwHXJq-FjiSJX2ZRpbvr67h1?usp=sharing
+Results:
 
-Original train (no resumed models): PSNR 31.69 SSIM 0.89
+|   Scale   |   PSNR   |   SSIM   | Number of epochs |
+|:-------:|:-------:|:-------:|:---------------:|
+|   x2    | 34.785  |  0.935  |       25        |
+|   x3    | 30.984  |  0.863  |       25        |
+|   x4    | 29.124  |  0.803  |       25        |
