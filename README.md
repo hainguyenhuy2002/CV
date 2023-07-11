@@ -111,10 +111,11 @@ change the wanted argument and run model.py in drrn folder (creating new model o
 
 ## Result
 
-Set5	Scale	SRResNet	SRGAN	EDSR	DRRN
-PSNR	4	32.05 (32.14)	29.40 (30.64)	-	-
-PSNR	3	0.9019 (0.8954)	0.8472 (0.8642)	-	-
-PSNR	2	0.9019 (0.8954)	0.8472 (0.8642)	-	-
+| Set5 | Scale | SRGAN           | EDSR | DRRN |
+|------|-------|-----------------|------|------|
+| PSNR |   4   | 29.40 (30.64)   |   -  |   -  |
+| PSNR |   3   | 0.8472 (0.8642) |   -  |   -  |
+| PSNR |   2   | 0.8472 (0.8642) |   -  |   -  |
 
 
 ## Contributing
