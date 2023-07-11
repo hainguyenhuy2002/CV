@@ -146,9 +146,10 @@ Ying Tai, Jian Yang, and Xiaoming Liu <br>
 ## Report 
 
 **Report link** <br>
-Link: <br>
+Link: https://drive.google.com/drive/folders/1f_DP0lbaNMcLnZIZClAga95P7uAWvdYx?usp=sharing
 
 **Demo video link** <br>
 Link: https://drive.google.com/file/d/1EEuE100DeiM9ONtQ_gC15JA8wvwU6qZ8/view?usp=drive_link
+or Link: https://drive.google.com/drive/folders/1VfdmJ3wKzLk9WAkMStQ9wCtPSHOogIKI?usp=sharing
 
 
