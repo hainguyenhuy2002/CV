@@ -80,13 +80,13 @@ python3 train_gan.py --config_path ./configs/train/SRGAN_X4.yaml
 There are 2 ways: by path and by url. These 2 functions can be found inside the predict.py
 
 ### Train EDSR
-criterion = nn.L1Loss()
-scale = 2
-epochs = 25
-train_loss = 0
-batch_num = 0
-decay_lr_at = 11, 15   # decay learning rate after these many iterations
-decay_lr_to = 0.1
+* criterion: nn.L1Loss()
+* scale: 2
+* epochs: 25
+* train_loss: 0
+* batch_num: 0
+* decay_lr_at: 11, 15 
+* decay_lr_to: 0.1
 
 change the wanted argument and run model.py in edsr folder (creating new model or resumed training)
 
@@ -94,18 +94,18 @@ change the wanted argument and run model.py in edsr folder (creating new model o
 There are 2 ways: by path and by url. These 2 functions can be found inside the predict.py
 
 ### Train DRRN
-B = 1
-U = 9
-num_features = 32
-lr = 0.1
-weights_file = None
-clip_grad = 0.01
-num_epochs = 50
-num_workers = 2
-seed = 123
-outputs_dir = "/kaggle/working/"
-batch_size = 128
-eval_scale = 4
+* B = 1
+* U = 9
+* num_features = 32
+* lr = 0.1
+* weights_file = None
+* clip_grad = 0.01
+* num_epochs = 50
+* num_workers = 2
+* seed = 123
+* outputs_dir 
+* batch_size = 128
+* eval_scale = 4
 
 change the wanted argument and run model.py in drrn folder (creating new model or resumed training)
 
