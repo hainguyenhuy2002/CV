@@ -27,6 +27,7 @@ Some information about the project.
     - [Results](#results)
     - [Contributing](#contributing)
     - [Credits](#credits)
+    - [Report](#report)
 
 ## Download weights
 
@@ -141,6 +142,8 @@ Bee Lim, Sanghyun Son, Heewon Kim, Seungjun Nah, Kyoung Mu Lee <br>
 ### Image Super-Resolution via Deep Recursive Residual Network
 
 Ying Tai, Jian Yang, and Xiaoming Liu <br>
+
+## Report 
 
 **Report link** <br>
 Insert link: 
