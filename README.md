@@ -31,7 +31,7 @@ Some information about the project.
 
 ## Download weights
 
-- [Google Drive](insert link here)
+- [Google Drive](https://drive.google.com/drive/folders/1btnRX_XgMhe53Y4UYNvOOpYaN9N__SlD?usp=sharing)
 
 ## Download datasets
 
@@ -112,11 +112,11 @@ change the wanted argument and run model.py in drrn folder (creating new model o
 
 ## Result
 
-| Set5 | Scale | SRGAN           | EDSR | DRRN |
-|------|-------|-----------------|------|------|
-| PSNR |   4   | 29.40 (30.64)   |   -  |   -  |
-| PSNR |   3   | 0.8472 (0.8642) |   -  |   -  |
-| PSNR |   2   | 0.8472 (0.8642) |   -  |   -  |
+| Set5 | Scale | SRGAN         | EDSR         | DRRN         |
+|------|-------|---------------|--------------|--------------|
+| PSNR |   4   | 31.69(0.89)   | 29.12 (0.80) | 28.27(0.78)  |
+| PSNR |   3   | x             | 30.98(0.86)  | 29.85(0.83)  |
+| PSNR |   2   | x             | 34.79(0.94)  | 33.69(0.93)  |
 
 
 ## Contributing
